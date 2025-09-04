@@ -32,6 +32,7 @@ npm start
 - By default, it connects to the backend at http://localhost:5000.
 
 - You can override this by creating a .env file in frontend/:
+- optional
 ```
 REACT_APP_API_URL=http://localhost:5000
 ```
@@ -39,7 +40,7 @@ REACT_APP_API_URL=http://localhost:5000
 
 - Go to http://localhost:3000.
 
-# Click Start to begin recording your current browser tab + mic.
+## Click Start to begin recording your current browser tab + mic.
 
 - Stop recording to see a preview.
 
