@@ -1,44 +1,45 @@
-MERN Screen Recorder App
-📌 Setup Instructions (Run Locally)
-Prerequisites
+# MERN Screen Recorder App
 
-Node.js and npm installed.
+# 📌 Setup Instructions (Run Locally)
+# Prerequisites
 
-A modern browser (Chrome recommended, with support for MediaRecorder).
+- Node.js and npm installed.
 
-1. Backend Setup
+- A modern browser (Chrome recommended, with support for MediaRecorder).
+
+## 1. Backend Setup
+```
 cd backend
 npm install
 npm start
+```
 
+- Starts the backend server on http://localhost:5000.
 
-Starts the backend server on http://localhost:5000
-.
+- Creates database.db automatically (SQLite).
 
-Creates database.db automatically (SQLite).
+- An empty uploads/ folder is used to store recordings.
 
-An empty uploads/ folder is used to store recordings.
-
-2. Frontend Setup
+## 2. Frontend Setup
+```
 cd frontend
 npm install
 npm start
+```
 
+- Runs the React app on http://localhost:3000.
 
-Runs the React app on http://localhost:3000
-.
+- By default, it connects to the backend at http://localhost:5000.
 
-By default, it connects to the backend at http://localhost:5000.
-
-You can override this by creating a .env file in frontend/:
-
+- You can override this by creating a .env file in frontend/:
+```
 REACT_APP_API_URL=http://localhost:5000
+```
+## 3. Usage
 
-3. Usage
+- Go to http://localhost:3000.
 
-Go to http://localhost:3000.
-
-Click Start to begin recording your current browser tab + mic.
+# Click Start to begin recording your current browser tab + mic.
 
 Stop recording to see a preview.
 
