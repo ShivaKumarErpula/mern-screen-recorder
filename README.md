@@ -41,8 +41,20 @@ REACT_APP_API_URL=http://localhost:5000
 
 # Click Start to begin recording your current browser tab + mic.
 
-Stop recording to see a preview.
+- Stop recording to see a preview.
 
-Download or upload the recording to the backend.
+- Download or upload the recording to the backend.
 
-Visit /recordings page to view and play uploaded videos.
+- Visit /recordings page to view and play uploaded videos.
+
+## ⚠️ Known Limitations
+
+- Browser support: Best on Chrome desktop; others may have limited MediaRecorder support.
+
+- Recording cap: Maximum 3 minutes per recording.
+
+- Database: Uses SQLite for dev; switch to PostgreSQL/MySQL for production.
+
+- Render free tier: Uploaded files may be lost after restarts; use cloud storage (e.g., AWS S3) for persistence.
+
+- macOS users: Grant Chrome Screen Recording permission under System Settings → Privacy & Security → Screen Recording.
